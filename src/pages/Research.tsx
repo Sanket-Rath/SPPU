@@ -16,7 +16,36 @@ const ResearchPage = () => (
           <li>Publication of journals and research papers</li>
           <li>Annual conferences, seminars, and workshops</li>
         </ul>
-        <p>Discover our research achievements and opportunities for collaboration.</p>
+        <p className="mb-6">Discover our research achievements and opportunities for collaboration.</p>
+
+        {/* Vertical link list for Research submenu */}
+        <section className="mb-8">
+          <div className="max-w-xs space-y-4">
+            <a href="/research/online" className="block px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <div className="font-semibold">Research Online</div>
+            </a>
+
+            <a href="/research/guidelines" className="block px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <div className="font-semibold">Guidlines Research</div>
+            </a>
+
+            <a href="/research/phd-tracking" className="block px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <div className="font-semibold">Ph.D Tracking</div>
+            </a>
+
+            <a href="/research/avishkar" className="block px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <div className="font-semibold">Avishkar</div>
+            </a>
+
+            <a href="/research/seminars" className="block px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <div className="font-semibold">Seminar &amp; Conferences</div>
+            </a>
+
+            <a href="/research/aspire" className="block px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <div className="font-semibold">ASPIRE</div>
+            </a>
+          </div>
+        </section>
       </main>
     </div>
     <Footer />
