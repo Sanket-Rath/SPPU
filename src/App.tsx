@@ -40,6 +40,8 @@ import AboutPunePage from "./pages/AboutPune";
 import HowToReachPage from "./pages/HowToReach";
 import UOPMapPage from "./pages/UOPMap";
 import ContactPage from "./pages/Contact";
+import AdmissionsPage from "./pages/Admissions";
+import AcademicCalenderPage from "./pages/AcademicCalender";
 import EBooksLearnPage from "./pages/e-learning/EBooks";
 import GIANLearnPage from "./pages/e-learning/GIAN";
 import NPTELLearnPage from "./pages/e-learning/NPTEL";
@@ -96,6 +98,8 @@ const App = () => (
           <Route path="/how-to-reach" element={<HowToReachPage />} />
           <Route path="/uop-map" element={<UOPMapPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/admissions" element={<AdmissionsPage />} />
+          <Route path="/academic-calendar" element={<AcademicCalenderPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
