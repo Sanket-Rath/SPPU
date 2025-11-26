@@ -33,6 +33,8 @@ import AboutPunePage from "./pages/AboutPune";
 import HowToReachPage from "./pages/HowToReach";
 import UOPMapPage from "./pages/UOPMap";
 import ContactPage from "./pages/Contact";
+import AdmissionsPage from "./pages/Admissions";
+import AcademicCalenderPage from "./pages/AcademicCalender";
 
 const queryClient = new QueryClient();
 
@@ -46,12 +48,15 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/academics" element={<AcademicsPage />} />
+          <Route path="/calendar" element={<AcademicCalenderPage />} />
           <Route path="/research" element={<ResearchPage />} />
           <Route path="/administration" element={<AdministrationPage />} />
           <Route path="/students" element={<StudentsPage />} />
           <Route path="/elearning" element={<ELearningPage />} />
           <Route path="/results" element={<ResultsPage />} />
           <Route path="/ebooks" element={<EBooksPage />} />
+          <Route path="/admissions" element={<AdmissionsPage />} />
+          <Route path="/academic-calender" element={<AcademicCalenderPage />} />
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/mission" element={<MissionPage />} />
           <Route path="/vc-desk" element={<VCDeskPage />} />
