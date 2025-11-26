@@ -11,6 +11,7 @@ import EBooksPage from "./pages/EBooksPage";
 import NotFound from "./pages/NotFound";
 import AboutPage from "./pages/About";
 import AcademicsPage from "./pages/Academics";
+import DepartmentsPage from "./pages/academics/Departments";
 import ResearchPage from "./pages/Research";
 import AdministrationPage from "./pages/Administration";
 import StudentsPage from "./pages/Students";
@@ -46,6 +47,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/academics" element={<AcademicsPage />} />
+          <Route path="/academics/departments" element={<DepartmentsPage />} />
           <Route path="/research" element={<ResearchPage />} />
           <Route path="/administration" element={<AdministrationPage />} />
           <Route path="/students" element={<StudentsPage />} />
