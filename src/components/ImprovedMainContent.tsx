@@ -85,7 +85,7 @@ const ImprovedMainContent = () => {
           </a>
 
           <a 
-            href="/calendar" 
+            href="/academic-calendar" 
             className="bg-card border border-border rounded-lg p-6 hover:shadow-xl hover:-translate-y-1 transition-all group text-center shadow-sm focus-visible:shadow-xl focus-visible:-translate-y-1 focus:outline-none transition-transform"
           >
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
