@@ -17,6 +17,34 @@ const ELearningPage = () => (
           <li>Learning management system (LMS)</li>
         </ul>
         <p>Start your digital learning journey with SPPU's E-Learning resources.</p>
+        <section className="mt-6">
+          <div className="max-w-xs space-y-4">
+            <a href="/e-learning/ebooks" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-sky-700 to-sky-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">E-Books</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/e-learning/gian" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-sky-700 to-sky-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">GIAN - SPPU</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/e-learning/nptel" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-sky-700 to-sky-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">NPTEL - SPPU</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/e-learning/econtent" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-sky-700 to-sky-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">E-Content Learning Module</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/e-learning/audio-video" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-sky-700 to-sky-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">Audio / Video Programs</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/e-learning/portal" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-sky-700 to-sky-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">E-Learning Portal</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+          </div>
+        </section>
       </main>
     </div>
     <Footer />
