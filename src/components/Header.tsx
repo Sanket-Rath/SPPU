@@ -7,10 +7,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SPPU</span>
-              </div>
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center overflow-hidden">
+              <img src="/sppu-logo.png" alt="SPPU logo" className="w-12 h-12 object-contain" />
             </div>
             <div>
               <h1 className="text-2xl font-bold">SAVITRIBAI PHULE PUNE UNIVERSITY</h1>

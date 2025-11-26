@@ -17,6 +17,23 @@ const AdministrationPage = () => (
           <li>Online services for students and staff</li>
         </ul>
         <p>Meet our leadership and learn about our administrative structure.</p>
+
+        <section className="mb-8">
+          <div className="max-w-xs space-y-4">
+            <a href="/administration/law" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">Law Section</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/administration/examination" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">Examination Section</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+            <a href="/administration/building-works" className="flex items-center justify-between px-4 py-3 rounded-md bg-gradient-to-b from-teal-800 to-teal-500 text-white shadow-md hover:scale-[1.01] transition-transform">
+              <span className="font-semibold">Building & Works Committee</span>
+              <span className="text-yellow-300 text-2xl">»</span>
+            </a>
+          </div>
+        </section>
       </main>
     </div>
     <Footer />
