@@ -13,6 +13,12 @@ import AboutPage from "./pages/About";
 import AcademicsPage from "./pages/Academics";
 import DepartmentsPage from "./pages/academics/Departments";
 import ResearchPage from "./pages/Research";
+import ResearchOnline from "./pages/research/Online";
+import GuidelinesResearch from "./pages/research/Guidelines";
+import PhdTracking from "./pages/research/PhdTracking";
+import Avishkar from "./pages/research/Avishkar";
+import Seminars from "./pages/research/Seminars";
+import Aspire from "./pages/research/Aspire";
 import AdministrationPage from "./pages/Administration";
 import StudentsPage from "./pages/Students";
 import ELearningPage from "./pages/ELearning";
@@ -63,6 +69,12 @@ const App = () => (
           <Route path="/academics" element={<AcademicsPage />} />
           <Route path="/academics/departments" element={<DepartmentsPage />} />
           <Route path="/research" element={<ResearchPage />} />
+          <Route path="/research/online" element={<ResearchOnline />} />
+          <Route path="/research/guidelines" element={<GuidelinesResearch />} />
+          <Route path="/research/phd-tracking" element={<PhdTracking />} />
+          <Route path="/research/avishkar" element={<Avishkar />} />
+          <Route path="/research/seminars" element={<Seminars />} />
+          <Route path="/research/aspire" element={<Aspire />} />
           <Route path="/administration" element={<AdministrationPage />} />
           <Route path="/administration/law" element={<LawSectionPage />} />
           <Route path="/administration/examination" element={<ExaminationPage />} />
